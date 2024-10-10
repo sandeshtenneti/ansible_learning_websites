@@ -1,0 +1,13 @@
+Update System Packages: First, ensure that your package list is up to date by running:
+install ansible on ubuntu
+Install Software Properties Common: This package allows you to add the necessary Ansible PPA:
+sudo apt update
+sudo apt install software-properties-common
+Add Ansible PPA: Add the Ansible repository to your system:
+sudo add-apt-repository --yes --update ppa:ansible/ansible
+Install Ansible: Now, install Ansible with the following command:
+sudo apt install ansible
+Verify Installation: To confirm Ansible is installed correctly, check the version:
+ansible --version
+
+https://www.cherryservers.com/blog/install-ansible-ubuntu
